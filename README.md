@@ -1,6 +1,6 @@
 # Laravel スキルチェック課題 📚 書籍 API
 
-Laravel で **書籍管理 REST API** を実装するスキルチェックです。「はじめてのLaravel」で学んだ範囲
+**Laravel 13**（`laravel/framework` v13.x）で **書籍管理 REST API** を実装するスキルチェックです。「はじめてのLaravel」で学んだ範囲
 （ルーティング・Controller・Eloquent・マイグレーション・リレーション・バリデーション・API Resource・Sanctum 認証・PHPUnit）で解けます。
 
 - **想定時間**: 約 3〜4 時間（半日）
@@ -11,7 +11,8 @@ Laravel で **書籍管理 REST API** を実装するスキルチェックです
 
 ## 1. 環境構築（最小手順）
 
-PHP 8.3 以上（8.4 推奨）と Composer が必要です。DB は **SQLite**（サーバ不要・設定済み）。
+PHP 8.3 以上（Laravel 13 の要件）と Composer が必要です。DB は **SQLite**（サーバ不要・設定済み）。
+※ PHP トラック（php-skill-check）と同じ PHP 8.3 系で動作確認しています。
 
 ```bash
 composer install

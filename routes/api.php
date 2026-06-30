@@ -27,7 +27,7 @@ use App\Http\Controllers\BookController;
 | 上のコメントは設計の指針です。実際のルート定義は自分で記述してください。
 */
 
-Route::apiResource('books', BookController::class)->only(['index', 'show']);
+Route::apiResource('books', BookController::class);
 
 // install:api が用意した認証ユーザー取得ルート（Sanctum 動作確認用・そのままでOK）
 Route::get('/user', function (Request $request) {
